@@ -7,7 +7,7 @@
 Designed and developed by Manav Kapila<br>
 Crazy face image designed using Paint 3D
 
-<hr><br>
+<hr>
   <b><h1>🤔 How to use it?</h1></b>
  <hr><br><br> 
 
@@ -22,7 +22,7 @@ Crazy face image designed using Paint 3D
       &lt;img class="rotateImg rotationStyle2" src="crazyFace2.png"&gt;
       <hr>
       <br><br>
-<h5>2.1 class name and purpose:-</h5><br><br>
+<h5>2.1 class name and purpose:-</h5>
         <h6> -  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.</h6>
         <h6> -  rotationstyle2= class name corresponding to particular rotation style applied.</h6>
   <hr><br><br>         
