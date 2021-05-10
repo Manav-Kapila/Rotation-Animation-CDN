@@ -8,9 +8,9 @@ Designed and developed by Manav Kapila<br>
 Crazy face image designed using Paint 3D
 
 <hr><br>
-  
+  <b><h1>🤔 How to use it?</h1></b>
  <hr><br><br> 
-<b><h4>🤔 How to use it?</h4></b>
+
   
   <h5>1. Import Rotation-Animation Css as mentioned Below:<h5>
 
