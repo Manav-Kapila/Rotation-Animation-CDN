@@ -28,8 +28,8 @@ Add styles in <head>:-
       <hr>
       <br><br>
 2.1 class name and purpose:-<br>
-         -  <h6>rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.</h6><br>
-         -  rotationstyle2= class name corresponding to particular rotation style applied.
+        <h6> -  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.</h6><br>
+        <h6> -  rotationstyle2= class name corresponding to particular rotation style applied.</h6>
   <hr><br><br>         
   <h5>3.Predefined options:- </h5>
        3.1 Animation Styles
