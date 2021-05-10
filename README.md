@@ -16,7 +16,7 @@ Crazy face image designed using Paint 3D
 
       Add styles in <head>:
 
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+      <link rel="stylesheet" href="https://github.com/Manav-Kapila/Rotation-Animation-CDN/blob/gh-pages/rotation.css">
  <hr><br><br>       
   <h5>2. Set animation using class name:</h5>
       &lt;img class="rotateImg rotationStyle2" src="crazyFace2.png"&gt;
