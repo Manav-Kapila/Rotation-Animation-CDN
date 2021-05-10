@@ -22,15 +22,15 @@ Crazy face image designed using Paint 3D
       &lt;img class="rotateImg rotationStyle2" src="crazyFace2.png"&gt;
       <hr>
       <br><br>
-2.1 class name and purpose:-<br>
-        <h6> -  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.</h6><br>
+<h5>2.1 class name and purpose:-</h5><br><br>
+        <h6> -  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.</h6>
         <h6> -  rotationstyle2= class name corresponding to particular rotation style applied.</h6>
   <hr><br><br>         
   <h5>3.Predefined options:- </h5>
        3.1 Animation Styles
-          <h6>3.1.1 rotationStyle1 = Rotates once On Hover and then Stops.</h6><br>
-         <h6> 3.1.2 rotationStyle2 = Keeps Rotating On Hover.</h6><br>
-          <h6>3.1.3 rotationStyle3 = Auto-Rotation.</h6><br>
+          <h6>3.1.1 rotationStyle1 = Rotates once On Hover and then Stops.</h6>
+         <h6> 3.1.2 rotationStyle2 = Keeps Rotating On Hover.</h6>
+          <h6>3.1.3 rotationStyle3 = Auto-Rotation.</h6>
    <hr><br><br>    
   <h5> 4. Customisation:-</h5>
         <h6>You can customise the rotation angle, time duration, etc by overriding the styles in your custom CSS.</h6>
