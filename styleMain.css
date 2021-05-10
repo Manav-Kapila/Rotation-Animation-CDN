@@ -1,0 +1,188 @@
+        html,
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body.bodyArea {
+            margin: 0 auto;
+            padding: 0;
+            max-width: 1920px !important;
+            height: 100%;
+        }
+        
+        a {
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .blurred-wrapper {
+            background: #AA076B;
+            background: -webkit-linear-gradient(-45deg, #FFFFFF, #6DD5FA, #2980B9, #ffdde1, #ee9ca7, #FF0080, #FF8C00, #40E0D0);
+            background: linear-gradient(-45deg, #FFFFFF, #6DD5FA, #2980B9, #ffdde1, #ee9ca7, #FF0080, #FF8C00, #40E0D0);
+            background-size: 400% 400%;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            animation: hue 10s infinite alternate;
+            height: 100%;
+        }
+        
+        .blurred-wrapper::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: inherit;
+            position: absolute;
+            top: 0;
+            left: 0;
+            filter: blur(1rem);
+            z-index: -1;
+            transform: scale(1.15);
+        }
+        
+        @keyframes hue {
+            from {
+                filter: hue-rotate(0);
+            }
+            to {
+                filter: hue-rotate(360deg);
+            }
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        
+        .content-wrapper {
+            max-width: 85%;
+            padding: 5% 0;
+        }
+        
+        .card {
+            border-radius: 10px;
+            background-color: #846e6e66;
+            width: 100%;
+            margin-bottom: 15%;
+            text-align: center;
+            box-shadow: 1px 1px 50px #516767e3;
+        }
+        
+        .mainTitle,
+        .title {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            padding-bottom: 3rem;
+            -webkit-text-stroke: 0.1px black;
+            text-shadow: 2px 2px 10px black;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .mainTitle {
+            padding-top: 5%;
+        }
+        
+        .title {
+            font-size: 2rem;
+            padding-top: 5%;
+            padding-bottom: 0;
+        }
+        
+        .message {
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+            letter-spacing: 2px;
+            -webkit-text-stroke: 0.1px black;
+            color: #fff;
+        }
+        
+        .rotateImg {
+            width: 250px;
+            height: 250px;
+            margin: 0 auto;
+            padding: 20% 0;
+        }
+        
+        .rImg1 {
+            display: block;
+            transition: -webkit-transform 1s;
+        }
+        
+        .rImg1:hover {
+            transform: rotate(360deg) translateZ(0);
+        }
+        
+        .rImg2:hover {
+            animation: spin 1s linear infinite;
+        }
+        
+        .rImg3 {
+            animation: spin 1s linear infinite;
+        }
+        
+        @-webkit-keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @-moz-keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        /* RESPONSIVE STYLING */
+        
+        @media all and (max-width: 950px) {
+            .title {
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media all and (max-width: 750px) {
+            .title {
+                font-size: 1.5rem;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            .rotateImg {
+                width: 150px;
+                height: 150px;
+            }
+        }
+        
+        @media all and (max-width: 580px) {
+            .container {
+                width: 70%;
+            }
+        }
+        
+        @media all and (max-width: 450px) {
+            .title {
+                font-size: 1rem;
+                padding-left: 4%;
+                padding-right: 4%;
+            }
+        }
+        
+        @media all and (max-width: 300px) {
+            .mainTitle {
+                font-size: 1.5rem;
+            }
+            .rotateImg {
+                height: 100px;
+                width: 100px;
+            }
+        }
