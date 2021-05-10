@@ -27,8 +27,8 @@ Add styles in <head>:-
       &lt;img class="rotateImg rotationStyle2" src="crazyFace2.png"&gt;
       <hr>
       <br><br>
-2.1 class name and purpose:-
-         -  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.<br>
+2.1 class name and purpose:-<br>
+         -  <h6>rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.</h6><br>
          -  rotationstyle2= class name corresponding to particular rotation style applied.
   <hr><br><br>         
   <h5>3.Predefined options:- </h5>
