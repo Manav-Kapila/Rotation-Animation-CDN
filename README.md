@@ -19,16 +19,16 @@ Add styles in <head>:
   
   <h5>1. Import Rotation-Animation Css as mentioned Below:<h5>
 
-      <h6>Add styles in <head>:<h6>
+      Add styles in <head>:
 
-      &lt;link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /&gt;<br>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
  <hr><br><br>       
   <h5>2. Set animation using class name:</h5>
       &lt;img class="rotateImg rotationStyle2" src="crazyFace2.png"&gt;<br>
       
       2.1 class name and purpose:-
-        <h6> 2.1.1  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.</h6><br>
-        <h6> 2.1.2  rotationstyle2= class name corresponding to particular rotation style applied.</h6><br>
+        <h6> -  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.
+        <h6> -  rotationstyle2= class name corresponding to particular rotation style applied.
   <hr><br><br>         
   <h5>3.Predefined options:- </h5>
        3.1 Animation Styles
