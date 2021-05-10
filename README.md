@@ -25,10 +25,11 @@ Add styles in <head>:-
  <hr><br><br>       
   <h5>2. Set animation using class name:</h5>
       &lt;img class="rotateImg rotationStyle2" src="crazyFace2.png"&gt;
+      <hr>
       
-      2.1 class name and purpose:-
-        <h6> -  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.
-        <h6> -  rotationstyle2= class name corresponding to particular rotation style applied.
+2.1 class name and purpose:-
+         -  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.
+         -  rotationstyle2= class name corresponding to particular rotation style applied.
   <hr><br><br>         
   <h5>3.Predefined options:- </h5>
        3.1 Animation Styles
