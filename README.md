@@ -11,9 +11,9 @@ Crazy face image designed using Paint 3D
 <b><h3>⚙ Installation</h3></b>
 
 <b><h4>Basic</h4><b><br>
-Add styles in <head>:
-
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" >
+Add styles in <head>:-
+       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" >
+  
  <hr><br><br> 
 <b><h4>🤔 How to use it?</h4></b>
   
@@ -24,7 +24,7 @@ Add styles in <head>:
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
  <hr><br><br>       
   <h5>2. Set animation using class name:</h5>
-      &lt;img class="rotateImg rotationStyle2" src="crazyFace2.png"&gt;<br>
+      <img class="rotateImg rotationStyle2" src="crazyFace2.png">
       
       2.1 class name and purpose:-
         <h6> -  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.
