@@ -1,30 +1,30 @@
 # Rotation-Animation-CDN
 
 
-❗❗❗ This is README for Rotation-Animation ❗❗❗
+❗❗❗ <b>This is README for Rotation-Animation</b> ❗❗❗
 
-🌟 Credits
+<b>🌟 Credits</b>
 Designed and developed by Manav Kapila
 Crazy face image designed using Paint 3D
 
 
-⚙ Installation
+<b>⚙ Installation</b>
 
 Basic
 Add styles in <head>:
 
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  &lt;link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /&gt;
   
-🤔 How to use it?
+<b>🤔 How to use it?</b>
   
   1. Import Rotation-Animation Css as mentioned Below:
 
       Add styles in <head>:
 
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      &lt;link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /&gt;
       
   2. Set animation using class name:
-      <img class="rotateImg rotationStyle2" src="crazyFace2.png">
+      &lt;img class="rotateImg rotationStyle2" src="crazyFace2.png"&gt;
       
     2.1 class name and purpose:-
          2.1.1  rotateImg= class name assigned to multiple images to apply common styles like width, height, margin,padding,etc.
