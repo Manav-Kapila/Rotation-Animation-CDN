@@ -8,11 +8,6 @@ Designed and developed by Manav Kapila<br>
 Crazy face image designed using Paint 3D
 
 <hr><br>
-<b><h3>⚙ Installation</h3></b>
-
-<b><h4>Basic</h4><b><br>
-Add styles in <head>:-
-       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" >
   
  <hr><br><br> 
 <b><h4>🤔 How to use it?</h4></b>
